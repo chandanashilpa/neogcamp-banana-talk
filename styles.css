@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@400;700&display=swap");
+:root {
+  --primary: #f2c94c;
+  --black: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kalam", cursive;
+  color: var(--black);
+}
+header {
+  background-color: var(--primary);
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.container {
+  width: 570px;
+  margin: auto;
+}
+#text-input {
+  display: block;
+  margin: auto;
+  height: 20vh;
+  width: 100%;
+  font-family: "Kalam", cursive;
+  color: var(--black);
+  font-size: 1.1rem;
+  margin-top: 3rem;
+}
+#btn-translate {
+  border: none;
+  background-color: var(--primary);
+  color: var(--black);
+  font-family: "Kalam", cursive;
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+}
+#label-output {
+  margin-top: 1rem;
+}
+#output {
+  border: 1px solid var(--black);
+  height: 10vh;
+}
+footer {
+  position: fixed;
+  background-color: var(--primary);
+  text-align: center;
+  bottom: 0;
+  width: 100vw;
+  padding: 1rem;
+}
+.footer-heading {
+  font-size: 1.5rem;
+}
+.footer-desc {
+  font-size: 1rem;
+  width: 600px;
+  margin: auto;
+}
